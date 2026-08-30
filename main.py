@@ -3,8 +3,10 @@ import os
 import telebot
 
 # سحب توكن البوت تلقائياً من إعدادات الاستضافة
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot("8901696840:AAGnqo20y0jnPdCdTAvEfB_QXVHx7YwsOS4")
+
+
+
 
 # رقم الأيدي الخاص بك الذي يملك صلاحية التحكم الكامل
 MY_ADMIN_ID = 8287138856
