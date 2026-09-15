@@ -6,6 +6,12 @@ ADMIN_ID = 8287138856
 
 bot = telebot.TeleBot(TOKEN)
 
+# مسح أي ويبهوك قديم تلقائياً عند تشغيل البوت لضمان عدم حدوث تعارض
+try:
+    bot.remove_webhook()
+except Exception as e:
+    print(f"Webhook error: {e}")
+
 def is_admin(user_id):
     return user_id == ADMIN_ID
 
