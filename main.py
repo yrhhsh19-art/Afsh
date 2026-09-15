@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = '8901696840:AAFFHv1mwAIbQvmd1bNOZpmx48iT5ToQGyk'
+TOKEN = '8704965523:AAEYPGvRQRi20XthfCM-VXc0IoKzB6Yi860'
 ADMIN_ID = 8287138856
 
 bot = telebot.TeleBot(TOKEN)
@@ -50,3 +50,4 @@ def callback_query(call):
 if __name__ == '__main__':
     print("Bot is running...")
     bot.infinity_polling()
+
